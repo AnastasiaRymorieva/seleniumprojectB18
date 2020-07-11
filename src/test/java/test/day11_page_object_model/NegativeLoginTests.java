@@ -65,6 +65,7 @@ public class NegativeLoginTests {
 //asserting the TEXT VALUE of the error message
         String actualText = loginPage.errorMessage.getText();
         String expectedText = "Invalid user name or password.";
+        System.out.println("Git Practice");
         Assert.assertEquals(actualText, expectedText);
 
 
