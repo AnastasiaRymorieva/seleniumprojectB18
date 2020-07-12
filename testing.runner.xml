@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Vytrack automation tests">
+    <test name="Vytrack automation tests">
+        <classes>
+
+            <class name="test.day11_page_object_model.Vytrack_Test"><methods>
+                <exclude name="forgot_password_verification"></exclude>
+            </methods></class>
+        </classes>
+    </test>
+</suite>
