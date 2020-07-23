@@ -42,5 +42,6 @@ public class ActionsTests {
 
         actions.moveToElement(img3).perform();
         Assert.assertTrue(user3.isDisplayed());
+
     }
 }
